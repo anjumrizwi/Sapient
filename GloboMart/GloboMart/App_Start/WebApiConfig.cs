@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.OData.Builder;
+using GloboMart.Models;
 
 namespace GloboMart
 {
@@ -10,6 +12,10 @@ namespace GloboMart
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+
+            ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
+            builder.EntitySet<Product>("Product");
+            config.Routes.MapODataRoute("odata", "odata", builder.GetEdmModel());
 
             // Web API routes
             config.MapHttpAttributeRoutes();
