@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.ProductCatalogueS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.ProductCatalogueService.Tests", "GloboMart.ProductCatalogueService.Tests\GloboMart.ProductCatalogueService.Tests.csproj", "{381B5FC6-2C5B-4C4D-96DD-AA6248EE4A71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.PricingService", "GloboMart.PricingService\GloboMart.PricingService.csproj", "{2193EB1E-04F7-4487-8A7E-DD2A36F7109D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.PricingService.Tests", "GloboMart.PricingService.Tests\GloboMart.PricingService.Tests.csproj", "{747DB9C5-533E-435F-B772-EBA3F66B2D39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{381B5FC6-2C5B-4C4D-96DD-AA6248EE4A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381B5FC6-2C5B-4C4D-96DD-AA6248EE4A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381B5FC6-2C5B-4C4D-96DD-AA6248EE4A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2193EB1E-04F7-4487-8A7E-DD2A36F7109D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2193EB1E-04F7-4487-8A7E-DD2A36F7109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2193EB1E-04F7-4487-8A7E-DD2A36F7109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2193EB1E-04F7-4487-8A7E-DD2A36F7109D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747DB9C5-533E-435F-B772-EBA3F66B2D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747DB9C5-533E-435F-B772-EBA3F66B2D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747DB9C5-533E-435F-B772-EBA3F66B2D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747DB9C5-533E-435F-B772-EBA3F66B2D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
